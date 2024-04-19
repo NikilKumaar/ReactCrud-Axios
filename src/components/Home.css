@@ -1,0 +1,19 @@
+.bg {
+    background: linear-gradient(black, rgb(36, 34, 34), black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainHead {
+    color: blue;
+}
+
+.mainHead:hover {
+    opacity: 0.8;
+}
+
+.head:hover {
+    color: white;
+    border-bottom: 1px solid whitesmoke;
+}
