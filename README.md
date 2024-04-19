@@ -17,6 +17,7 @@ This is a simple React application that allows users to perform CRUD (Create, Re
 - React
 - Axios
 - Bootstrap (for UI styling)
+- React Router DOM
 
 ## Setup
 
@@ -25,7 +26,7 @@ Follow these steps to set up and run the application locally:
 1. Clone the repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/NikilKumaar/ReactCrud-Axios.git
 
 2. Navigate to the project directory:
 
@@ -64,8 +65,12 @@ Follow these steps to set up and run the application locally:
 ##Folder Structure
 
 src/ - Contains the application source code.
- `components/ - React components used in the application.
+ `components/ - React components used in the application and context folder for using contextAPI.
  `App.js - The main application component.
 public/ - Static assets and HTML template.
 package.json - Dependencies and scripts.
 README.md - This file.
+
+# Netlify Deployed URL
+
+https://reactcrud-axios.netlify.app
